@@ -1,11 +1,11 @@
 # ReactNativeInterviewQuestions
 ReactNativeInterviewQuestions
 
-React Native( Version 0.63.3 )
-What is react native
+#React Native( Version 0.63.3 )
+#What is react native
 
 React Native is an open-source mobile application framework, created by Facebook & written in JavaScript. You can build native mobile apps using React Native, which is supportable for both Android, iOS, Web and UWP.
- What is States & Props?
+# What is States & Props?
 
 There are two types of data that control or customise a component
 Props : Props is short for “properties.
@@ -16,7 +16,7 @@ Customization of components with different - different ,these parameters is know
 props are set by the parent and they are fixed throughout the lifetime of a component. 
 For data that is going to change, we have to use state. It is mutable means a state can change the value at any time.
 Ex: Blinking a text
-React Native or React Component Lifecycle?
+#React Native or React Component Lifecycle?
 
 All React class components have their own phases. When an instance of a component is being created and inserted into the DOM, it gets properties,  or props, and from now on they can be accessed using this.props. Then the whole lifecycle ‘thing’ begins.
 
@@ -38,9 +38,9 @@ Unmounting — the component is not needed and gets unmounted.
 componentWillUnmount()
  
 Error handling — called when there is an error during rendering, in a lifecycle method, or in the constructor of any child component.
-State management in React Native ?
+#State management in React Native ?
    Redux is a javascript library for managing application state.
-What is the difference between functional Component & Class Component ? 
+#What is the difference between functional Component & Class Component ? 
 
         Functional Components                  
                          Class Components                
