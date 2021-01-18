@@ -2,7 +2,7 @@
 ReactNativeInterviewQuestions
 
 #React Native( Version 0.63.3 )
-#What is react native
+# What is react native
 
 React Native is an open-source mobile application framework, created by Facebook & written in JavaScript. You can build native mobile apps using React Native, which is supportable for both Android, iOS, Web and UWP.
 # What is States & Props?
@@ -38,9 +38,9 @@ Unmounting — the component is not needed and gets unmounted.
 componentWillUnmount()
  
 Error handling — called when there is an error during rendering, in a lifecycle method, or in the constructor of any child component.
-#State management in React Native ?
+# State management in React Native ?
    Redux is a javascript library for managing application state.
-#What is the difference between functional Component & Class Component ? 
+# What is the difference between functional Component & Class Component ? 
 
         Functional Components                  
                          Class Components                
@@ -52,26 +52,26 @@ Also known as Stateless components as they simply accept data and display them i
 Also known as Stateful components because they implement logic and state.
 React lifecycle methods (for example, componentDidMount) cannot be used in functional components.
 React lifecycle methods can be used inside class components (for example, componentDidMount).
-What is Flat list and Section List?
+# What is Flat list and Section List?
 
 React Native provides a suite of components for presenting lists of data. Generally, you'll want to use either FlatList or SectionList.
 
 The FlatList component displays a scrolling list of changing, but similar structured, data. FlatList works well for long lists of data, where the number of items might change over time. Unlike the more generic ScrollView, the FlatList only renders elements that are currently showing on the screen, not all the elements at once.
 
-What is JSX?
+# What is JSX?
 JSX Stands for JavaScript XML. React and React Native use JSX, a syntax then  you can  write elements inside JavaScript like : <Text>Hello, World</Text>
 
-What is flex?
+# What is flex?
 
 flex will define how your items are going to “fill” over the available space along your main axis. Space will be divided according to each element's flex property.
 
 Ex: there is three child like color red,blue,green, want to fill the entire screen using flex 1,flex 2,flex 3, then color red will fill ⅙, blue 2/6, and green 3/6.
 
-What is Component?
+# What is Component?
  Anything you see on the screen is some sort of components
 EX: View,Text,Image,Button,ScrollView etc.
 
-What is absolute and Relative Layout?
+# What is absolute and Relative Layout?
 The position type of an element defines how it is positioned within its parent, 
 
 Relative (default value) By default, an element is positioned relatively. This means an element is positioned according to the normal flow of the layout, and then offset. 
@@ -79,7 +79,7 @@ Ex: we insert Text1,Image and then text2 then they show on the screen by relativ
 
 Absolute  :When positioned absolutely, an element doesn't take part in the normal layout flow. It is instead laid out independent of its siblings. The position is determined based on the top, right, bottom, and left values.
 
-What are the benefits of React Native?
+# What are the benefits of React Native?
              Learn Once write Everywhere
 Cross-platform Development
 Open source
@@ -89,7 +89,7 @@ Live and Hot Reloading
 Easy to use
 Provides Native Look and Feel 
 
-   12.  What is the difference between react native and react and similarity  ?
+# What is the difference between react native and react and similarity  ?
     Both, React and React Native uses
 React Lifecycle Methods
 React State and Props
@@ -100,7 +100,7 @@ ReactJs is a JavaScript Library used for developing apps in HTML5 using JavaScri
 React Native:
 React Native is used to develop native mobile apps using JavaScript as the development language.
 
-13. What is mapping and how to use it in react native?
+# What is mapping and how to use it in react native?
 The map() function is used to iterate over an array and manipulate or change data items. In React, the map() function is most commonly used for rendering a list of data to the DOM
 
 The map function is used to show a list of elements from an array. Properly saying, The map() method creates a new array with the results of calling a provided function on every element in the calling array. 
@@ -111,7 +111,7 @@ const map = array.map(element => element * 2);
 
 console.log(map);
 // expected output: Array [2, 4, 6, 8]
-14.  Difference between 0.6 version and older version?
+#  Difference between 0.6 version and older version?
 A Fresh Start
 AndroidX Support
 CocoaPods by Default
@@ -119,7 +119,7 @@ Lean Core Removals
 Focus on Accessibility 
 There have been many improvements to the accessibility APIs, like announceForAccessibility, plus improvements to roles, action support, flags, and more
 
-What is Babel?
+# What is Babel?
 Babel is a JavaScript compiler
 Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments. Here are the main things Babel can do for you:
 Transform syntax
@@ -130,7 +130,7 @@ And more! (check out these videos for inspiration)
 
 
 
-Redux(4.0.5)
+# Redux(4.0.5)
 
 What is redux?
 Redux is a JavaScript library for managing and updating  Application States. Using Events called actions.
